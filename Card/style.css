@@ -1,0 +1,25 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: rgb(204, 204, 204) solid 2px;
+  margin: 1rem;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  right: 600px;
+  bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  border-width: 500px;
+  border-top: rgb(204, 204, 204) solid 2px;
+  margin: 1rem;
+  list-style: none;
+}
