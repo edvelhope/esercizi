@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+section {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#yellow {
+  order: -1;
+}
+
+#red {
+  order: -1;
+}
+
+#orange {
+  padding-right: 300px;
+}
