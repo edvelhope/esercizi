@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(25, 44, 46);
+  height: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav span, nav a,
+nav button {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: rgb(25, 44, 46);
+  border: none;
+  font-size: 20px;
+}
+.search {
+  border: 2px solid rgb(33, 164, 7);
+  border-radius: 5px;
+  color: rgb(33, 164, 7);
+  font-size: 14;
+}
+input {
+  border: 2px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+  height: 40px;
+}
+.navbar {
+    font-size: 20px;
+    font-weight: bold;
+}
+.links, .drop {
+    color: rgb(177, 177, 177)
+}
+.dis {
+    color: rgb(100, 100, 100);
+}
