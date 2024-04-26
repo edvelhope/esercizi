@@ -15,16 +15,13 @@
     <script>
       const html = document.documentElement;
       const body = html.children[1];
-      const ul = body.children;
+      const ul = body.children[0];
       const li2 = ul.children[1];
-      const li3 = li2.nextElementSibling;
-      const li1 = li2.previousElementSibling;
-      const parent = ul.parentElement;
 
-      console.log(parent);
-      console.log(li2);
-      console.log(li3);
-      console.log(li1);
+      console.log(ul.parentElement);
+      console.log(li2.innerHTML);
+      console.log(li2.nextElementSibling.innerHTML);
+      console.log(li2.previousElementSibling.innerHTML);
     </script>
   </body>
 </html>
