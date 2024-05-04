@@ -6,16 +6,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <span class="navbar">Navbar</span>
-        <a class="home" href="#">Home</a>
-        <a class="links" href="#">Link</a>
-        <button class="drop">Dropdown &#9660;</button>
-        <button class="dis" disabled>Disabled</button>
-        <input type="text" placeholder="Search" />
-        <button class="search">Search</button>
-      </nav>
-    </header>
+    <nav>
+      <ul>
+        <button class="hamburger">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+        </button>
+        <h1 class="logo">Navbar</h1>
+        <li class="nav-item">
+          <a class="nav-link-active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Dropdown</a><span>&#9660;</span>
+        </li>
+        <li class="nav-item">
+          <button disabled>Disabled</button>
+        </li>
+      </ul>
+      <form class="search-wrapper">
+        <input class="search-input" type="text" placeholder="Search" />
+        <button class="search" type="submit">Search</button>
+      </form>
+    </nav>
   </body>
 </html>
